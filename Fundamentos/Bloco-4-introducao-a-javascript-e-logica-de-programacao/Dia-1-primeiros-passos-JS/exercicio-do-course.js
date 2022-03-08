@@ -118,9 +118,9 @@ else {
 
 // Exercício 9 
 
-const number1 = 8;
-const number2 = 22;
-const number3 = 11;
+const numero1 = 8;
+const numero2 = 22;
+const numero3 = 11;
 
 if (number1 % 2 !== 0 || number2 % 2 !== 0 || number3 % 2 !== 0) {
     console.log(true);
@@ -133,28 +133,36 @@ else {
 
 const custo = 50;
 const venda = 80;
-const custoTotal = custo + (custo % 20);
+const custoTotal = custo + (custo * 0,20);
 const lucro = (venda - custoTotal) * 1000;
 
 console.log(lucro);
 
 // Exercício 11
 
-const salario = 5000.60;
-let resultado = null;
+const salarioBruto = 4600.00
+let salarioBase = null;
+// let salarioLiquido = null;
 
-if (salario <= 1556.94) {
-    resultado = salario + (salario % 8);
-    console.log(resultado);
+if (salarioBruto <= 1556.94) {
+    salarioBase = salarioBruto - (salarioBruto * 0,08);
+    console.log(salarioBase);
 }
-else if (salario >= 1556.94 && salario <= 2594.92) {
-    resultado = salario + (salario % 9);
-    console.log(resultado);
+else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+    salarioBase = salarioBruto - (salarioBruto * 0,09);
+    console.log(salarioBase);
 }
-else if (salario >= 2594.92 && salario <= 5189.82) {
-    resultado = salario + (salario % 11);
-    console.log(resultado);
+else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+    salarioBase = salarioBruto - (salarioBruto * 0,11);
+    console.log(salarioBase);
 }
 else {
-    console.log('Alíquota máxima de 570.00 reais')
+    console.log(salarioBruto - 570.88);
+}
+// IR (Imposto de Renda)
+if (salarioBase <= 1903.98) {
+    console.log('Isento do imposto de renda');
+}
+else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
+    salarioLiquido = salarioBase - 7.5%salarioBase
 }
