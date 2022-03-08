@@ -133,27 +133,27 @@ else {
 
 const custo = 50;
 const venda = 80;
-const custoTotal = custo + (custo * 0,20);
+const custoTotal = custo + (custo * 0.20);
 const lucro = (venda - custoTotal) * 1000;
 
 console.log(lucro);
 
 // Exercício 11
 
-const salarioBruto = 4600.00
+const salarioBruto = 2600.00
 let salarioBase = null;
-// let salarioLiquido = null;
+let salarioLiquido = null;
 
 if (salarioBruto <= 1556.94) {
-    salarioBase = salarioBruto - (salarioBruto * 0,08);
+    salarioBase = salarioBruto - (salarioBruto * 0.08);
     console.log(salarioBase);
 }
 else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
-    salarioBase = salarioBruto - (salarioBruto * 0,09);
+    salarioBase = salarioBruto - (salarioBruto * 0.09);
     console.log(salarioBase);
 }
 else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
-    salarioBase = salarioBruto - (salarioBruto * 0,11);
+    salarioBase = salarioBruto - (salarioBruto * 0.11);
     console.log(salarioBase);
 }
 else {
@@ -164,5 +164,18 @@ if (salarioBase <= 1903.98) {
     console.log('Isento do imposto de renda');
 }
 else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
-    salarioLiquido = salarioBase - 7.5%salarioBase
+    salarioLiquido = salarioBase - (salarioBase * 0.075 - 142.80);
+    console.log(salarioLiquido);
+}
+else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
+    salarioLiquido = salarioBase - (salarioBase * 0.015 - 142.80);
+    console.log(salarioLiquido);
+}
+else if (salarioBase >= 3751.06 && salarioBase <=4664.68) {
+    salarioLiquido = salarioBase - (salarioBase * 0.225 - 142.80);
+    console.log(salarioLiquido);
+}
+else {
+    salarioLiquido = salarioBase - (salarioBase * 0.275 - 142.80);
+    console.log(salarioLiquido);
 }
