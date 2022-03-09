@@ -66,19 +66,20 @@ console.log(maiorNum);
 
 // Exercício 6
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [2, 75, 6, 10, 12, 20, 30];
 let numImpar = 0;
 
-for (let index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] % 2 !== 0) {
-    numImpar += 1;
-  }
+for (let i = 1; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 !== 0) {
+        numImpar += 1;
+    }
 }
 
 if (numImpar === 0) {
-  console.log('nenhum valor ímpar encontrado');
-} else {
-  console.log(numImpar + 'valores ímpares foram encontrados');
+    console.log('Não há números ímpares nessa array');
+}
+else {
+    console.log(numImpar + ' ' + 'número ímpar encontrado na array');
 }
 
 // Exercício 7
@@ -93,3 +94,26 @@ for (let i = 1; i < numbers.length; i += 1) {
 }
 
 console.log(menorNum);
+
+// Exercício 8
+
+let array = [];
+
+for (let i = 0; i < 25; i += 1) {
+    array.push(i+1)
+}
+console.log(array);
+
+// Exercício 9
+
+let array = [];
+let divisao = [];
+
+for (let i = 0; i < 25; i += 1) {
+    array.push(i+1);
+}
+for (let index = 0; index < array.length; index += 1) {
+    divisao.push(array[index] / 2);
+}
+
+console.log(divisao);
