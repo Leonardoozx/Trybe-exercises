@@ -44,9 +44,7 @@ for (let index = 1; index < 50; index += 1) {
 for (let i = 0; i < numeros.length; i += 1) {
     if (numeros[i] % 2 !== 0 && numeros[i] % numeros[i] == 0 && numeros[i] % 3 !== 0 &&
         numeros[i] % 5 !== 0 && numeros[i] % 7 !== 0
-    ) {
+    ) 
         primo.push(numeros[i]);
-    }
 }
-
 console.log('Maior número primo entre 0 e 50 é o: ' + primo[primo.length -1]);
