@@ -62,7 +62,7 @@ input.addEventListener('keyup', changeText);
 // 4.1. Que tal redirecionar para seu portfólio?
 
 let titulo = document.querySelector('#titulo');
-n
+
 function linkLeo() {
     window.location.href = "https://leonardoozx.github.io/";
 }
