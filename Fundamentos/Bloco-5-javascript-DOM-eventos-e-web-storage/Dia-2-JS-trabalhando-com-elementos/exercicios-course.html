@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+
+        .main-content .left-content {
+            background-color: green;
+            width: 60%;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .main-content .left-content .small-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+        }
+
+        .main-content .right-content {
+            background-color: blue;
+            width: 60%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .main-content .description {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício 5.2 - JavaScript DOM</h1>
+    <main class="main-content">
+        <section class="center-content">
+            <p>Texto aleatório dentro de um paragráfo</p>
+        </section>
+        <section class="left-content">
+            <img src="https://picsum.photos/200 " alt="" class="small-image">
+        </section>
+        <section class="right-content">
+            <ul>
+                <li>Um</li>
+                <li>Dois</li>
+                <li>Três</li>
+                <li>Quatro</li>
+                <li>Cinco</li>
+                <li>Seis</li>
+                <li>Sete</li>
+                <li>Oito</li>
+                <li>Nove</li>
+                <li>Dez</li>
+            </ul>
+        </section>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+    </main>
+
+    <script>
+
+        // Adicione a classe title na tag h1 criada;
+
+        console.log(document.querySelector('body'));
+        let titulo = document.querySelector('h1');
+        titulo.className = 'title';
+
+        // Adicione a classe description nas 3 tags h3 criadas;
+
+        let titulos1 = document.querySelectorAll('h3')[0];
+        titulos1.className = 'description';
+        let titulos2 = document.querySelectorAll('h3')[1];
+        titulos2.className = 'description'
+        let titulos3 = document.querySelectorAll('h3')[2];
+        titulos3.className = 'description'
+
+
+        // Remova a section criado no passo 5(aquele que possui a classe left - content).Utilize a função.removeChild();
+
+        let paiDaRemovida = document.querySelector('.main-content');
+        let sectionRemovida = document.querySelector('.left-content');
+        paiDaRemovida.removeChild(sectionRemovida);
+
+        // Centralize a section criado no passo 6(aquele que possui a classe right - content).Dica: para centralizar, basta configurar o margin - right: auto da section;
+
+        let section6 = document.querySelector('.right-content');
+        section6.style.marginRight = 'auto'
+
+        // Troque a cor de fundo do elemento pai da section criada no passo 3(aquela que possui a classe center - content) para a cor verde;
+
+        let paiSection3 = document.querySelector('.center-content').parentElement;
+        paiSection3.style.backgroundColor = 'green';
+
+        // Remova os dois últimos elementos(nove e dez) da lista criada no passo 8.
+
+        let lista = document.querySelectorAll('li');
+        let pai = document.querySelector('ul');
+        pai.className = 'listas'
+        for (let i = 0; i < lista.length; i += 1) {
+            let element = lista[i];
+            if (element.innerText.includes('Nove')) {
+                pai.removeChild(element)
+            }
+            if(element.innerText.includes('Dez')) {
+                pai.removeChild(element)
+            }
+        }
+
+    </script>
+</body>
+
+</html>
