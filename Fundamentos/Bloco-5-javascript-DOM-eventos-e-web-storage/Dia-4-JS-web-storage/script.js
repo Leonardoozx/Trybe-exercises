@@ -45,7 +45,7 @@ espacoLinha.addEventListener('keyup', espacaLinhas);
 
 function tamanhoLetra() {
     corpo.style.fontSize = letras.value + 'px';
-    if (letras.value <= 16) {
+    if (letras.value < 17) {
         corpo.style.fontSize = '16px';
     }
     localStorage.setItem('tamanhoLetras', letras.value);
@@ -59,16 +59,20 @@ function fonteLetras() {
 fonte.addEventListener('keyup', fonteLetras);
 
 function backSettings() {
+    let letraFonte = localStorage.getItem('fonteLetras');
+    corpo.style.fontFamily = letraFonte;
+
+    let linhaEspaco = localStorage.getItem('espacoLinhas');
+    corpo.style.lineHeight = linhaEspaco;
+
     let fundoCor = localStorage.getItem('fundo');
     corpo.style.backgroundColor = fundoCor;
+    
+    let words = localStorage.getItem('tamanhoLetras');
+    corpo.style.fontSize = words + 'px';
+    
     if (fundoCor == 'black') {
         corpo.style.color = 'white';
     }
-    let letraFonte = localStorage.getItem('fonteLetras');
-    corpo.style.fontFamily = letraFonte;
-    let linhaEspaco = localStorage.getItem('espacoLinhas');
-    corpo.style.lineHeight = linhaEspaco;
-    let letraTamanho = localStorage.getItem('tamanhoLetras');
-    corpo.style.fontSize = letraTamanho;
 }
 retorna.addEventListener('click', backSettings);
