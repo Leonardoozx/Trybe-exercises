@@ -10,7 +10,6 @@ function createDaysOfTheWeek() {
         weekDaysList.appendChild(dayListItem);
     };
 };
-
 createDaysOfTheWeek();
 
 function criaDias() {
@@ -33,3 +32,16 @@ function criaDias() {
     }
 }
 criaDias();
+
+function criaBtnFeriados() {
+    let btnContainer = document.querySelector('.buttons-container');
+    let botao = document.createElement('button');
+    botao.innerText = 'Feriados';
+    btnContainer.appendChild(botao);
+    botao.id = 'btn-holiday';
+}
+criaBtnFeriados();
+
+function changeColor() {
+   
+}
