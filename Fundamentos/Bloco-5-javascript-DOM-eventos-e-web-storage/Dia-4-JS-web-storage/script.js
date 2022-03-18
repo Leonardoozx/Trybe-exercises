@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const corpo = document.querySelector('body');
 const corPag = document.getElementById('cor');
 corPag.style.width = '130px';
 corPag.style.textAlign = 'center';
@@ -16,38 +16,59 @@ fonte.style.textAlign = 'center'
 fonte.style.width = '180px'
 const todosInputs = document.getElementById('todosInputs');
 todosInputs.style.textAlign = 'center'
+let retorna = document.getElementById('retorna');
+retorna.style.float = 'left';
 
 function trocaCor() {
-    body.style.backgroundColor = corPag.value;
+    corpo.style.backgroundColor = corPag.value;
     if (corPag.value == 'blue') {
-        body.style.color = 'white';
+        corpo.style.color = 'white';
     }
     if (corPag.value == 'black') {
-        body.style.color = 'white';
+        corpo.style.color = 'white';
     }
     if (corPag.value == '') {
-        body.style.color = 'black';
+        corpo.style.color = 'black';
     }
     if (corPag.value == 'aqua') {
-        body.style.color = 'black';
+        corpo.style.color = 'black';
     }
+    localStorage.setItem('fundo', corPag.value);
 }
 corPag.addEventListener('keyup', trocaCor);
 
 function espacaLinhas() {
-    body.style.lineHeight = espacoLinha.value;
+    corpo.style.lineHeight = espacoLinha.value;
+    localStorage.setItem('espacoLinhas', espacoLinha.value);
 }
 espacoLinha.addEventListener('keyup', espacaLinhas);
 
 function tamanhoLetra() {
-    body.style.fontSize = letras.value + 'px';
+    corpo.style.fontSize = letras.value + 'px';
     if (letras.value <= 16) {
-    body.style.fontSize = '16px';
+        corpo.style.fontSize = '16px';
     }
+    localStorage.setItem('tamanhoLetras', letras.value);
 }
 letras.addEventListener('keyup', tamanhoLetra);
 
 function fonteLetras() {
-    body.style.fontFamily = fonte.value;
+    corpo.style.fontFamily = fonte.value;
+    localStorage.setItem('fonteLetras', fonte.value);
 }
 fonte.addEventListener('keyup', fonteLetras);
+
+function backSettings() {
+    let fundoCor = localStorage.getItem('fundo');
+    corpo.style.backgroundColor = fundoCor;
+    if (fundoCor == 'black') {
+        corpo.style.color = 'white';
+    }
+    let letraFonte = localStorage.getItem('fonteLetras');
+    corpo.style.fontFamily = letraFonte;
+    let linhaEspaco = localStorage.getItem('espacoLinhas');
+    corpo.style.lineHeight = linhaEspaco;
+    let letraTamanho = localStorage.getItem('tamanhoLetras');
+    corpo.style.fontSize = letraTamanho;
+}
+retorna.addEventListener('click', backSettings);
