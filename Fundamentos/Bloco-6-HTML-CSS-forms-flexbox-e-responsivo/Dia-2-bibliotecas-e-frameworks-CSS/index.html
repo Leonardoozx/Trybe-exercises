@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class='container-sm text-center font-monospace'>
+        <h1 class="display-2">TrybeTrip</h1>
+    </header>
+    <form action="" method="get" class='container-sm text-center fs-5 lh-lg'>
+        <label for="full-name" class="form-floating mb-3">Nome completo</label>
+        <input type="text" id="full-name" minlength="10" maxlength="40" name="full-name"
+            placeholder="Digite seu nome completo aqui" autocomplete="off" required autofocus class="form-control center">
+        <br>
+        <label for="email" class="form-floating mb-3">Email: </label>
+        <input type="email" id="email" minlength="10" maxlength="50" name="email" placeholder="Digite seu email aqui"
+            autocomplete="off" required class="form-control center"><br>
+        <label for='password' class="form-floating mb-3">Senha</label>
+        <input type="password" required id='password' class="form-control center" placeholder="Digite sua senha aqui"><br>
+        <p class="display-6 font-monospace">Destino preferido</p>
+        <label for="irlanda">
+            <input type="radio" name="destiny" id="irlanda">Irlanda
+        </label>
+        <label for="maldivas">
+            <input type="radio" name="destiny" id="maldivas">Maldivas
+        </label>
+        <label for="everest">
+            <input type="radio" name="destiny" id="everest">Monte Everest
+        </label>
+        <label for="uruguai">
+            <input type="radio" name="destiny" id="uruguai">Uruguai
+        </label>
+        <br><br>
+        <h3 class="font-monospace">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+        <textarea class="form-control center" name="why-win" id="why" cols="30" rows="6"
+            placeholder="Digite em poucas palavras, o porque você deveria ser o grande ganhador desta viagem"
+            maxlength="500"></textarea>
+        <br>
+        <h3 class="font-monospace">Qual a melhor data para realizar a sua viagem?</h3>
+        <input type="date" name="date" class="center"><br>
+        <!-- <label for="trip">Dia</label> -->
+        <!-- <select name="trip-day" id="trip">
+            <option value="day1">1</option>
+            <option value="day2">2</option>
+            <option value="day3">3</option>
+            <option value="day4">4</option>
+            <option value="day5">5</option>
+            <option value="day6">6</option>
+            <option value="day7">7</option>
+            <option value="day8">8</option>
+            <option value="day9">9</option>
+            <option value="day10">10</option>
+            <option value="day11">11</option>
+            <option value="day12">12</option>
+            <option value="day13">13</option>
+            <option value="day14">14</option>
+            <option value="day15">15</option>
+            <option value="day16">16</option>
+            <option value="day17">17</option>
+            <option value="day18">18</option>
+            <option value="day19">19</option>
+            <option value="day20">20</option>
+            <option value="day21">21</option>
+            <option value="day22">22</option>
+            <option value="day23">23</option>
+            <option value="day24">24</option>
+            <option value="day25">25</option>
+            <option value="day26">26</option>
+            <option value="day27">27</option>
+            <option value="day28">28</option>
+            <option value="day29">29</option>
+            <option value="day30">30</option>
+            <option value="day31">31</option>
+        </select> -->
+
+        <!-- <label for="month">Mês</label>
+        <select name="month" id="month">
+            <option value="january">Janeiro</option>
+            <option value="february">Feveirero</option>
+            <option value="mars">Março</option>
+            <option value="april">Abril</option>
+            <option value="may">Maio</option>
+            <option value="jun">Junho</option>
+            <option value="july">Julho</option>
+            <option value="august">Agosto</option>
+            <option value="september">Setembro</option>
+            <option value="october">Outubro</option>
+            <option value="november">Novembro</option>
+            <option value="december">Dezembro</option> -->
+        </select>
+        <br><br>
+        <input type="checkbox" name="sending-news">Gostaria de receber outras incríveis oportunidades pela Trybe?
+        <br>
+        <input type="checkbox" name="allow-my-images">Concordo que imagens das minhas férias poderão ser usadas na
+        divulgação de concursos futuros.
+
+        <br><br>
+        <button type="submit" class="btn btn-outline-primary" id="send">Enviar</button>
+        <button type="reset" class="btn btn-outline-danger">Apagar</button>
+        <br><br>
+
+    </form>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="pikaday.js"></script>
+<script>
+    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+</script>
+</body>
+
+</html>
