@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(24, 22, 22);
+  color: white;
+  align-items: center;
+}
+
+.pzao {
+  /* text-align: center; */
+  /* nesse caso eu acharia melhor utilizar o text-align, mas parar praticar, utilizarei o display flex e o justify content */
+  display: flex;
+  justify-content: center;
+}
+
+.tecnologias {
+  display: flex;
+  max-width: 500px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 450px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.tecnologias h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.tecnologias div {
+  background-color: rgb(236, 236, 236);
+  border-radius: 10%;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-content: center;
+  align-items: center;
+}
