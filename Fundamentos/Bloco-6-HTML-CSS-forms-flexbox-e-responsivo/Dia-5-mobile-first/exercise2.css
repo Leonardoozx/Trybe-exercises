@@ -108,7 +108,7 @@ html {
     }
 }
 
-@media screen and (min-width: 421px) and (max-width: 840px) {
+@media screen and (min-width: 421px) {
     * {
         background-color: rgb(247, 247, 247);
         color: rgb(41, 41, 41);
@@ -150,6 +150,7 @@ html {
     .asides {
         display: flex;
         align-items: center;
+        margin-right: 3%;
     }
 
     .aside-one h2 {
@@ -215,5 +216,36 @@ html {
         text-align: center;
         font-size: 20px;
         color: rgb(121, 95, 31);
+    }
+}
+
+@media screen and (min-width: 840px) {
+    header p {
+        font-size: 35px;
+    }
+
+    header nav ul li {
+        font-size: 27px;
+    }
+
+    .asides {
+        margin: 0 8%;
+    }
+
+    .main-content h1 {
+        font-size: 50px;
+    }
+
+    .main-content p {
+        font-size: 23px;
+        margin: 13.5px 3%;
+    }
+
+    footer h3 {
+        font-size: 35px;
+    }
+
+    footer p {
+        font-size: 23.5px;
     }
 }
