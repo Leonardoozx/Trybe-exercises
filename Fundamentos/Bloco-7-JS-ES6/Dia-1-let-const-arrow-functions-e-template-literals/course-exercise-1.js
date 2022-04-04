@@ -12,10 +12,11 @@
 
 // Refatorando o código:
 
-const testingScope = escopo => {
-    let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
-    escopo === true ? console.log(`${ifScope}!, Ótimo fui utilizada no escopo!`) : console.log(`Não devo ser utilizada fora do meu escopo (else)`);
-};
+let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
+let elseScope = 'Não devo ser utilizada fora do meu escopo (else)'
+const testingScope = escopo =>
+    escopo ? `${ifScope}, ótimo, fui utilizada no escopo !` : `${elseScope}`;
+
 console.log(testingScope(true));
 
 console.log('------------------- Parte 2 -------------------');
@@ -33,12 +34,10 @@ const oddsAndEvens = [
 
 const orderConsts = (a, b) => a - b;
 
-console.log(`Os números, ${
-    oddsAndEvens.sort(orderConsts)
-}, se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
+console.log(`Os números, ${oddsAndEvens.sort(orderConsts)
+    }, se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
 console.log('--------------------------------------');
 console.log('Outra forma de resolver também, é com uma arrow function dentro do prório sort:');
 
-console.log(`Os números, ${
-    oddsAndEvens.sort((a, b) => a - b)
-}, se encontram de forma crescente!`);
+console.log(`Os números, ${oddsAndEvens.sort((a, b) => a - b)
+    }, se encontram de forma crescente!`);
