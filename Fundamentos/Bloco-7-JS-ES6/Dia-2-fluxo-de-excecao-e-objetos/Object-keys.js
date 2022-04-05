@@ -6,7 +6,8 @@ const createObjects = (obj, key, value) => {
     obj[newKey] = value;
     console.table(obj);
 };
-createObjects('Aqui é o objeto', 'Essa é a chave', 'E aqui é o valor');
+createObjects('newObj', 'Essa é a chave', 'E aqui é o valor');
+console.log(newObj)
 
 // const customer = {
 //     firstName: 'Roberto',
