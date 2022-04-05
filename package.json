@@ -1,0 +1,23 @@
+{
+  "name": "trybe-exercises",
+  "version": "1.0.0",
+  "description": "Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Leonardo Guimarães Urci](https://www.linkedin.com/in/leonardo-guimar%C3%A3es-urci-824854225/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardoozx/Trybe-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonardoozx/Trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/Leonardoozx/Trybe-exercises#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
