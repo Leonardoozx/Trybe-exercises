@@ -5,9 +5,10 @@
 // console.log(str)
 
 console.log('----------------------- Atividade 1 -----------------------');
-const retObj = (nome, gmail) => {
-    gmail = nome.replace(/\s+/g, '_').toLocaleLowerCase();
-    let gmailFormated = `${gmail}@trybe.com`;
+
+const retObj = (nome) => {
+    const gmail = nome.replace(/\s+/g, '_').toLocaleLowerCase();
+    const gmailFormated = `${gmail}@trybe.com`;
     const obj = {
         nomeCompleto: nome,
         email: gmailFormated,
