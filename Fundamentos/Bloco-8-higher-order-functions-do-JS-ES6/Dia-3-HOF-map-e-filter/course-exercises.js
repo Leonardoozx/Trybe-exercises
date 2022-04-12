@@ -216,5 +216,5 @@ console.log('----------------------- 7 -----------------------');
 // Dica: cada inicial termina com um ponto.
 const expectedResult7 = 'O Senhor dos Anéis';
 
-const authorWith3DotsOnName = (x) => x.filter((y) => y.author.name.match(/\.[^]*\.[^]*\./));
-console.log(authorWith3DotsOnName(books)[0].name);
+const authorWith3DotsOnName = (x) => x.filter((y) => y.author.name.match(/\.[^]*\.[^]*\./))[0].name;
+console.log(authorWith3DotsOnName(books));
