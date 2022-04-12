@@ -63,5 +63,5 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-const averageAge = (x) => x.reduce((acc, value) => acc = (2022 - value.releaseYear), 0);
+const averageAge = (x) => Math.round(x.reduce((acc, value) => acc + (value.releaseYear - value.author.birthYear) / x.length, 0));
 console.log(averageAge(books));
