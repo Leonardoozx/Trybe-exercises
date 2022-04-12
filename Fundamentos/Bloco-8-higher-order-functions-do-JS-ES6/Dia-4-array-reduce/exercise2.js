@@ -65,17 +65,15 @@ const books = [
 
 // Exercício 2
 
-function getNamesFromObj(x) {
-    let names = [];
-    x.forEach((y) => {
-        const pushs = y.author.name;
-        names.push(pushs);
-    });
-    return names;
-};
-console.log(getNamesFromObj(books));
-
-// function reduceNames(x) {
-
+// function getNamesFromObj(x) {
+//     let names = [];
+//     x.forEach((y) => {
+//         const pushs = y.author.name;
+//         names.push(pushs);
+//     });
+//     return names;
 // };
-// console.log(reduceNames(books))
+// console.log(getNamesFromObj(books));
+
+const reduceNames = (x) => x.reduce((acc, value) => acc + value.author.name, '');
+console.log(reduceNames(books))
