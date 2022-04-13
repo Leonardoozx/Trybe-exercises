@@ -9,10 +9,11 @@ console.log(a * b);
 console.log(a / b);
 console.log(a % b);
 
-const aa = 6;
-const bb = 2;
 
 // Exercício 2
+
+const aa = 6;
+const bb = 2;
 
 if (aa > bb) {
     console.log(aa);
@@ -48,7 +49,7 @@ else if (valor < 0) {
     console.log("negative");
 }
 else {
-    console.log(zero);
+    console.log('zero');
 }
 // Exercício 5
 

@@ -24,7 +24,6 @@ for (let index = 0; index < array.length; index += 1) {
         biggerWord = array[index];
     }
 }
-
 for (let i = 0; i < array.length; i += 1) {
     if (array[i].length < smallerWord.length) {
         smallerWord = array[i];
@@ -36,13 +35,16 @@ console.log(biggerWord);
 
 // Exercício 4 - números primos
 
-let primo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 1, 32, 5, 50];
+let numeros = [];
+let primo = [];
 
-for (let i = 0; i <= 50; i += 1) {
-    if (primo[i] === primo / 1 && primo[i] === primo[i]) {
-        if (primo[i].length > primo.length) {
-            primo = primo[i];
-            console.log(primo);
-        }
-    }
+for (let index = 1; index < 50; index += 1) {
+    numeros.push(index + 1);
 }
+for (let i = 0; i < numeros.length; i += 1) {
+    if (numeros[i] % 2 !== 0 && numeros[i] % numeros[i] == 0 && numeros[i] % 3 !== 0 &&
+        numeros[i] % 5 !== 0 && numeros[i] % 7 !== 0
+    ) 
+        primo.push(numeros[i]);
+}
+console.log('Maior número primo entre 0 e 50 é o: ' + primo[primo.length -1]);
