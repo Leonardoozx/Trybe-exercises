@@ -61,13 +61,13 @@ input.addEventListener('keyup', changeText);
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
 
-
+let titulo = document.querySelector('#titulo');
 
 function linkLeo() {
-
+    window.location.href = "https://leonardoozx.github.io/";
 }
 
-myWebpage.addEventListener('dblclick', linkLeo);
+titulo.addEventListener('dblclick', linkLeo);
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;

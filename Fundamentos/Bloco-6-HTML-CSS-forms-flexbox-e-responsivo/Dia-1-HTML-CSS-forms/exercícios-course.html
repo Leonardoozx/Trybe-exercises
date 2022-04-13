@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>TrybeTrip</h1>
+    </header>
+    <form action="" method="get">
+        <label for="full-name">Nome completo:
+            <input type="text" id="full-name" minlength="10" maxlength="40" name="full-name"
+                placeholder="Digite seu nome completo aqui" required autofocus>
+        </label>
+        <br>
+        <label for="email">Nome completo:
+            <input type="text" id="email" minlength="10" maxlength="50" name="email"
+                placeholder="Digite seu email aqui" required>
+        </label>
+
+        <fieldset class="favorite-place">
+            <legend>Destino preferido</legend>
+            <label for="irlanda">
+                <input type="radio" name="destiny" id="irlanda">Irlanda
+            </label>
+            <label for="maldivas">
+                <input type="radio" name="destiny" id="maldivas">Maldivas
+            </label>
+            <label for="everest">
+                <input type="radio" name="destiny" id="everest">Monte Everest
+            </label>
+            <label for="uruguai">
+                <input type="radio" name="destiny" id="uruguai">Uruguai
+            </label>
+        </fieldset>
+
+        <fieldset class="why-win">
+            <legend>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</legend>
+            <textarea name="why-win" id="why" cols="30" rows="10"
+                placeholder="Digite em poucas palavras, o porque você deveria ser o grande ganhador desta viagem"
+                maxlength="500"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Qual a melhor data para realizar a sua viagem?</legend>
+            <label for="trip">Dia</label>
+            <select name="trip-day" id="trip">
+                <option value="day1">1</option>
+                <option value="day2">2</option>
+                <option value="day3">3</option>
+                <option value="day4">4</option>
+                <option value="day5">5</option>
+                <option value="day6">6</option>
+                <option value="day7">7</option>
+                <option value="day8">8</option>
+                <option value="day9">9</option>
+                <option value="day10">10</option>
+                <option value="day11">11</option>
+                <option value="day12">12</option>
+                <option value="day13">13</option>
+                <option value="day14">14</option>
+                <option value="day15">15</option>
+                <option value="day16">16</option>
+                <option value="day17">17</option>
+                <option value="day18">18</option>
+                <option value="day19">19</option>
+                <option value="day20">20</option>
+                <option value="day21">21</option>
+                <option value="day22">22</option>
+                <option value="day23">23</option>
+                <option value="day24">24</option>
+                <option value="day25">25</option>
+                <option value="day26">26</option>
+                <option value="day27">27</option>
+                <option value="day28">28</option>
+                <option value="day29">29</option>
+                <option value="day30">30</option>
+                <option value="day31">31</option>
+            </select>
+
+            <label for="month">Mês</label>
+            <select name="month" id="month">
+                <option value="january">Janeiro</option>
+                <option value="february">Feveirero</option>
+                <option value="mars">Março</option>
+                <option value="april">Abril</option>
+                <option value="may">Maio</option>
+                <option value="jun">Junho</option>
+                <option value="july">Julho</option>
+                <option value="august">Agosto</option>
+                <option value="september">Setembro</option>
+                <option value="october">Outubro</option>
+                <option value="november">Novembro</option>
+                <option value="december">Dezembro</option>
+            </select>
+        </fieldset>
+
+        <input type="checkbox" name="sending-news">Gostaria de receber outras incríveis oportunidades pela Trybe?
+<br>
+        <input type="checkbox" name="allow-my-images">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+
+        <br>
+        <button type="submit" id="send">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+
+</html>

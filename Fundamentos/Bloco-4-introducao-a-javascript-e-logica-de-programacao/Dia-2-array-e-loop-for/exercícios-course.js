@@ -100,7 +100,7 @@ console.log(menorNum);
 let array = [];
 
 for (let i = 0; i < 25; i += 1) {
-    array.push(i+1)
+    array.push(i + 1)
 }
 console.log(array);
 
@@ -110,7 +110,7 @@ let array = [];
 let divisao = [];
 
 for (let i = 0; i < 25; i += 1) {
-    array.push(i+1);
+    array.push(i + 1);
 }
 for (let index = 0; index < array.length; index += 1) {
     divisao.push(array[index] / 2);
