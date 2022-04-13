@@ -31,6 +31,11 @@ const names = [
 // console.log(aaaa());
 
 const containsA = (x) => {
- 
+  const reducedArray = x.reduce((y, z) => y + z);
+  const array = reducedArray.toUpperCase();
+  const splitedArray = array.split('');
+  const countArray = splitedArray.reduce((acc, b) => b === 'A' ? acc += 1 : acc);
+  const splitCountArray = countArray.split('');
+  return splitCountArray.length;
 };
 console.log(containsA(names));
