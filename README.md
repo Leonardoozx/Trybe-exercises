@@ -10,79 +10,75 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [x] 1-3: _Unix & Shell- Part 1_
-- [x] 1-4: _Unix & Shell- Part 2_
+:white_check_mark: 1-3: _Unix & Shell- Part 1_ <br>
+:white_check_mark: 1-4: _Unix & Shell- Part 2_ <br>
 
 ##### Bloco 2: Git & GitHub
 
-- [x] 2-1: _O que é e para que serve?_
-- [x] 2-2: _Entendendo os comandos_
-- [x] 2-3: _Internet - Entendendo como ela funciona_
+:white_check_mark: 2-1: _O que é e para que serve?_ <br>
+:white_check_mark: 2-2: _Entendendo os comandos_ <br>
+:white_check_mark: 2-3: _Internet - Entendendo como ela funciona_ <br>
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [x] 3-1: _HTML & CSS - Estruturas de página_
-- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS]()_
+:white_check_mark: 3-1: _HTML & CSS - Estruturas de página_ <br>
+:white_check_mark: 3-2: _HTML & CSS - Primeiros passos em CSS_ <br>
+:white_check_mark: 3-3: _HTML & CSS - Seletores e posicionamento_ <br>
+:white_check_mark: 3-4: _HTML Semântico_ <br>
+:white_check_mark: 3-5: _[Projeto -  Lessons Learned]()_<br>
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [x] 4-1: _JavaScript - Primeiros passos_
-- [x] 4-2: _JavaScript - Array e loop For_
-- [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+:white_check_mark: 4-1: _JavaScript - Primeiros passos_<br>
+:white_check_mark: 4-2: _JavaScript - Array e loop For_<br>
+:white_check_mark: 4-3: _JavaScript - Lógica de Programação e Algoritmos_<br>
+:white_check_mark: 4-4: _JavaScript - Objetos e funções_<br>
+:white_check_mark: 4-5: _[Projeto - Playground Functions]()_<br>
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _JavaScript - DOM e seletores_
-- [x] 5-2: _JavaScript - Trabalhando com elementos_
-- [x] 5-3: _JavaScript - Eventos_
-- [x] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+:white_check_mark: 5-1:  _JavaScript - DOM e seletores_<br>
+:white_check_mark: 5-2:  _JavaScript - Trabalhando com elementos_<br>
+:white_check_mark: 5-3:  _JavaScript - Eventos_<br>
+:white_check_mark: 5-4:  _JavaScript - Web Storage_<br>
+- [ ] 5-5: _[Projeto - Meme Generator]()_<br>
+:white_check_mark: 5-6: _[Projeto - Arte com Pixels]()_<br>
+:white_check_mark: 5-7:  _[Projeto - Lista de tarefas]()_<br>
+- [ ] 5-8: _[Projeto - Adivinhe a Cor]()_<br>
+- [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [x] 6-1: _HTML & CSS - Forms_
-- [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [x] 6-3: _CSS Flexbox - Part 1_
-- [x] 6-4: _CSS Flexbox - Part 2_
-- [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - TrybeWarts]()_
+:white_check_mark: 6-1:_HTML & CSS - Forms_<br>
+:white_check_mark: 6-2:_Bibliotecas JavaScript e Frameworks CSS_<br>
+:white_check_mark: 6-3:_CSS Flexbox - Part 1_<br>
+:white_check_mark: 6-4: _CSS Flexbox - Part 2_<br>
+:white_check_mark: 6-5: _CSS Responsivo - Mobile First_ <br>
+:white_check_mark: 6-6: _[Projeto - Trybewarts]()_<br>
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [x] 7-2: _JavaScript ES6 - Objects_
-- [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+:white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_<br>
+:white_check_mark: 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_<br>
+:white_check_mark: 7-3: _Primeiros passos em Jest_<br> 
+:white_check_mark: 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 8-5: _[Projeto - Zoo functions]()_
+:white_check_mark: 7-1: 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
+:white_check_mark: 7-1: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+:white_check_mark: 7-1: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+:white_check_mark: 7-1: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:white_check_mark: 7-1: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+:white_check_mark: 7-1: 8-6: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JavaScript e Testes Assíncronos
 
-- [x] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+:white_check_mark: 7-1: 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript - Fetch API e async/await
+- [ ] 9-3: _Jest - Testes Assíncronos
+- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
 
-##### Bloco 10: Jest
-
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assí­ncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -105,9 +101,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 13-3: _React Router_
 - [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
 
-##### Bloco 14: Metodologias ágeis
+##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias ágeis_
+- [ ] 14-1: _Metodologias Ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
@@ -122,7 +118,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 16-2: _React com Redux - Parte 1_
 - [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sí­ncronos com React-Redux_
+- [ ] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -146,7 +142,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especí­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -186,7 +182,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 26: Intro - NodeJS
 
 - [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assí­ncrono_
+- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
@@ -198,7 +194,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 28: NodeJS
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Servií§o_
+- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
 - [ ] 28-3: _[Projeto - Store Manager]()_
 
@@ -220,7 +216,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - Princí­pios SOLID_
+- [ ] 32-1: _Arquitetura - Princípios SOLID_
 - [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
 - [ ] 32-4: _Boas práticas na escrita de testes_
@@ -242,15 +238,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e seguraní§a_
+- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
 - [ ] 35-4: _[Projeto - Explorando os protocolos]()_
 
 ##### Bloco 36: Python
 
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saí­da de dados_
-- [ ] 36-4: _Entrada e Saí­da de dados_
+- [ ] 35-3: _Entrada e Saída de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
