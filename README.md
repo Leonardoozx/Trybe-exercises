@@ -42,8 +42,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 5-3:  _JavaScript - Eventos_<br>
 :white_check_mark: 5-4:  _JavaScript - Web Storage_<br>
 - [ ] 5-5: _[Projeto - Meme Generator]()_<br>
-:white_check_mark: 5-6: _[Projeto - Arte com Pixels]()_<br>
-:white_check_mark: 5-7:  _[Projeto - Lista de tarefas]()_<br>
+- [x] 5-6: _[Projeto - Arte com Pixels]()_<br>
+- [x] 5-7:  _[Projeto - Lista de tarefas]()_<br>
 - [ ] 5-8: _[Projeto - Adivinhe a Cor]()_<br>
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
