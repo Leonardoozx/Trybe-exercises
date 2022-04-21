@@ -1,15 +1,19 @@
-const fetch = require('node-fetch');
+// apiScript.js     
+const API_URL = 'https://icanhazdadjoke.com/';
 
 const fetchJoke = async () => {
-  const url = 'https://api.chucknorris.io/jokes/random?category=dev';
+  const myObject = {
+    method: 'GET',
+    headers: { 'Accept': 'application/json' }
+  };
 
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.log(data.value);
-  } catch(error) {
-    console.log(`Algo deu errado :( \n${error}`);
-  }
-}
+  const opa = await fetch(API_URL, myObject)
+   const sim =  await opa.then(response => response.json())
+   const obj = await sim.then(data => data);
+   const obj1 = {
+    piada: obj.joke,
+   };
+   console.log(obj1)
+};
 
-fetchJoke();
+// window.onload = () => fetchJoke();
