@@ -1,10 +1,10 @@
 import { Component } from 'react';
-import Data from './Data';
 import './Pokemons.css';
 
-const mapedPokemons = Data.map((x) => {
-    const { id, name, image, type, averageWeight: { value, measurementUnit } } = x;
-    return (
+class Pokemons extends Component {
+    render() {
+        const { id, name, image, type, averageWeight: { value, measurementUnit } } = this.props.pokemons;
+        return (
             <div key={id} className="theDad">
                 <div className="inColumn">
                     <div>{name}</div>
@@ -16,13 +16,6 @@ const mapedPokemons = Data.map((x) => {
                 </div>
             </div>
     )
-})
-
-class Pokemons extends Component {
-    render() {
-        return (
-            <p>{mapedPokemons}</p>
-        )
     }
 }
 
