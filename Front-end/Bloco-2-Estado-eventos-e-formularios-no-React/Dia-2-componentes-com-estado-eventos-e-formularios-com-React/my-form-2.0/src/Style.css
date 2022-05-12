@@ -3,3 +3,7 @@ input {
   flex-direction: column;
   margin: 5px;
 }
+
+body {
+  margin: 8px;
+}
