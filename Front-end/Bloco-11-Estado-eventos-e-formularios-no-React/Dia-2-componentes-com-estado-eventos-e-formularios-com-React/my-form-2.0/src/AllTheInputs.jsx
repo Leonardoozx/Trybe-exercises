@@ -14,14 +14,7 @@ class AllTheInputs extends React.Component {
     house: '',
   }
 
-  handleChange = ({ target }) => {
-    const { name } = target
-    const value = (target.type === 'checkbox' ? target.checked : target.value);
 
-    this.setState({
-      [ name ]: value
-    })
-  };
 
   handleUpperCase = ({ target }) => {
     this.setState({
