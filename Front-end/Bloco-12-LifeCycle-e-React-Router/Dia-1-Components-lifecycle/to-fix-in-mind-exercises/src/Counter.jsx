@@ -1,0 +1,44 @@
+import React from 'react';
+
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0
+    };
+    console.log("construtor");
+  }
+
+  componentDidMount() {
+    console.log("componentDidMount");
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("shouldComponentUpdate - nextState", this.state, nextState);
+    return true;
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log("componentDidUpdate - prevState", this.state, prevState);
+    if (prevState.counter < 5) {
+      console.log('TU NÃO CLICOU QUASE NADA AINDA')
+    }
+  }
+
+  render() {
+    console.log("render");
+    return (
+      <div>
+        <p>Contador</p>
+        <button
+          onClick={() => this.setState((state) => ({ counter: state.counter + 1 }))}
+        >
+          Soma
+        </button>
+        <p>{this.state.counter}</p>
+      </div>
+    );
+  }
+}
+
+export default Counter;
