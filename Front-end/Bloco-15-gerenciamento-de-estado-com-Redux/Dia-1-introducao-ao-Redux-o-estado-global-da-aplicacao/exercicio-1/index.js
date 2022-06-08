@@ -31,7 +31,7 @@ const store = Redux.createStore(
   && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-console.log(store)
+// console.log(store)
 
 const nextBtn = document.getElementById('next');
 const previousBtn = document.getElementById('previous');
