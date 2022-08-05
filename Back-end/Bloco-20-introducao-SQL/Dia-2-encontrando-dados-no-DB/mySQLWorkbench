@@ -1,0 +1,49 @@
+USE sakila;
+SELECT * FROM film;
+
+-- Nome completo dos atores:
+-- SELECT CONCAT(first_name, ' ', last_name) AS nome_completo FROM actor;
+
+-- Na tabela sakila.film, crie uma query que exiba o título do filme e sua classificação indicativa (PG, G, NC-17) em apenas uma coluna. Dê a ela o nome classificação. Não se esqueça de deixar um espaço entre as palavras para que fiquem legíveis.
+SELECT CONCAT(title, ' é apenas indicado para ', rating) AS classificação FROM film;
+
+-- Na tabela sakila.film, monte uma query que exiba o título e o ano de lançamento dos filmes em uma coluna e dê a ela o nome lançamento_do_filme.
+SELECT CONCAT(title, ' foi lançando em ', release_year) AS lançamento_do_filme FROM film;
+
+---------------------------------------------------
+-- 
+CREATE DATABASE Escola;
+CREATE TABLE IF NOT EXISTS Escola.Estudantes (
+    nome VARCHAR(7) CHARACTER SET utf8,
+    idade INT
+);
+INSERT INTO Escola.Estudantes VALUES
+    ('Rafael', 25),
+    ('Amanda', 30),
+    ('Roberto', 45),
+    ('Carol', 19),
+    ('Amanda', 25);
+-- Feito isso, você terá acesso à tabela Estudantes do banco de dados Escola. Levando em conta a explicação que você acabou de ver, como você montaria uma query para encontrar os seguintes dados?
+
+-- Monte uma query para encontrar pares únicos de nomes e idades.
+
+SELECT DISTINCT nome, idade FROM Escola.Estudantes;
+
+-- Quantas linhas você encontraria na query anterior?
+
+Resposta: 5 linhas;
+
+-- Monte uma query para encontrar somente os nomes únicos.
+
+SELECT DISTINCT nome FROM Escola.Estudantes;
+
+-- Quantas linhas você encontraria na query anterior?
+
+Resposta: 4 linhas;
+
+-- Monte uma query para encontrar somente as idades únicas.
+
+SELECT DISTINCT idade FROM Escola.Estudantes;
+
+-- Quantas linhas você encontraria na query anterior?
+Resposta: 4 linhas;
