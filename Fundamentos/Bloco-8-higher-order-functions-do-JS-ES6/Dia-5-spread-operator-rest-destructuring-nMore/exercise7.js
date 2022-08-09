@@ -19,8 +19,10 @@ const ships = [
     },
 ];
 
+const filterNames = (x, nome) => x.filter((x) => x.name === nome );
+console.log(filterNames(ships, 'Titanic'));
 // escreva shipLength abaixo
-
+console.log('---------------------')
 const shipLength = (x) => x.map(({name: shipName, length, measurementUnit}) => `${shipName} is ${length} ${measurementUnit} long`);
 console.log(shipLength(ships));
 

@@ -1,0 +1,4 @@
+
+> front@0.1.0 start /opt/compose-example-front
+> react-scripts start
+

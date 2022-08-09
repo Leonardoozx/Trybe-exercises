@@ -1,0 +1,14 @@
+.theDad {
+    display: flex;
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.inColumn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
