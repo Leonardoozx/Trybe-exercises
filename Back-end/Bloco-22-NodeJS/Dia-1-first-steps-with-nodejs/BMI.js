@@ -17,8 +17,8 @@ console.log(`Seu IMC é: ${(IMC).toFixed(2)}`)
 // Entre 25,0 e 29,9	Acima do peso (sobrepeso)
 // Entre 30,0 e 34,9	Obesidade grau I
 // Entre 35,0 e 39,9	Obesidade grau II
-
 // 40,0 e acima	Obesidade graus III e IV
+
 if (IMC < 18.5) console.log('Está abaixo do peso, estado de magreza');
 if (IMC >= 18.5 && IMC <= 24.99) console.log('Seu peso está normal');
 if (IMC >= 25 && IMC <= 29.99) console.log('Acima do peso, está no estado de sobrepeso');
