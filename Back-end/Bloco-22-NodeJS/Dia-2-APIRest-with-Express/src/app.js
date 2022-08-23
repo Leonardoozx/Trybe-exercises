@@ -40,7 +40,7 @@ app.get('/filter/myActivities', ({ query }, res) => {
 app.get('/search/myActivities', ({ query: { q } }, res) => {
   let searchedInfo;
   if (q) {
-    searchedInfo = activities.filter(({ description }) => description.toLowerCase().includes(q.toLowerCase())) || [];
+    searchedInfo = activities.filter(({ description }) => description.toLowerCase().includes(q.toLowerCase()));
   }
   res.status(200).json({ searchedInfo });
 });
