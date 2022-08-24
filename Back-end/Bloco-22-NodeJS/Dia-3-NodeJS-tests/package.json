@@ -1,0 +1,23 @@
+{
+  "name": "dia-3-nodejs-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mocha.test.js",
+  "scripts": {
+    "test": "mocha ./tests/integration --exit",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
