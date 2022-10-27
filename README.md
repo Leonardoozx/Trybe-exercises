@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Leonardo Guimarães Urci](https://www.linkedin.com/in/leonardo-guimar%C3%A3es-urci-824854225/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Leonardo Guimarães Urci](https://www.linkedin.com/in/leonardoozx/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -42,8 +42,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :white_check_mark: 5-3:  _JavaScript - Eventos_<br>
 :white_check_mark: 5-4:  _JavaScript - Web Storage_<br>
 - [ ] 5-5: _[Projeto - Meme Generator]()_<br>
-- [x] 5-6: _[Projeto - Arte com Pixels]()_<br>
-- [x] 5-7:  _[Projeto - Lista de tarefas]()_<br>
+:white_check_mark: 5-6: _[Projeto - Arte com Pixels]()_<br>
+- [ ] 5-7:  _[Projeto - Lista de tarefas]()_<br>
 - [ ] 5-8: _[Projeto - Adivinhe a Cor]()_<br>
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_<br>
 
@@ -65,163 +65,175 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 8: JavaScript ES6
 
-:white_check_mark: 7-1: 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
-:white_check_mark: 7-1: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-:white_check_mark: 7-1: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-:white_check_mark: 7-1: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-:white_check_mark: 7-1: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-:white_check_mark: 7-1: 8-6: _[Projeto - Zoo functions]()_
+:white_check_mark: 8-1: _JavaScript ES6 - Introdução a Higher Order Functions <br>
+:white_check_mark: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ <br>
+:white_check_mark: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_ <br>
+:white_check_mark: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_ <br>
+:white_check_mark: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_<br>
+:white_check_mark: 8-6: _[Projeto - Zoo functions]()_<br>
 
 ##### Bloco 9: JavaScript e Testes Assíncronos
 
-:white_check_mark: 7-1: 9-1: _JavaScript Assíncrono e Callbacks_
-:white_check_mark: 9-2: _JavaScript - Fetch API e async/await
-:white_check_mark: 9-3: _Jest - Testes Assíncronos
-:white_check_mark: 9-4: _[Projeto - Carrinho de Compras]()_
+:white_check_mark: 9-1: _JavaScript Assíncrono e Callbacks_ <br>
+:white_check_mark: 9-2: _JavaScript - Fetch API e async/await <br>
+:white_check_mark: 9-3: _Jest - Testes Assíncronos <br>
+:white_check_mark: 9-4: _[Projeto - Carrinho de Compras]()_<br>
 
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução - React
 
-:white_check_mark: 11-1: _'Hello, world!' no React!_
-:white_check_mark: 11-2: _Componentes React_
-:white_check_mark: 11-3: _[Projeto - Movie Cards Library]()_
+:white_check_mark: 10-1: _'Hello, world!' no React!_<br>
+:white_check_mark: 10-2: _Componentes React_<br>
+:white_check_mark: 10-3: _[Projeto - Sistema Solar]()_<br>
 
-##### Bloco 12: React
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-:white_check_mark: 12-1: _Components com estado_
-:white_check_mark: 12-2: _Eventos e formulários no React_
-:white_check_mark: 12-3: _[Projeto - Movie Cards Library Stateful]()_
+:white_check_mark: 11-1: _Components com estado e eventos_<br>
+:white_check_mark: 11-2: _Formulários no React_<br>
+:white_check_mark: 12-3: _[Projeto - Tryunfo]()_<br>
 
-##### Bloco 13: React
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-:white_check_mark: 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-:white_check_mark: 13-2: _Ciclo de vida de componentes em React_
-:white_check_mark: 13-3: _React Router_
-:white_check_mark: 13-4: _[Projeto - Movie Cards Library CRUD]()_
+:white_check_mark: 12-1: _Ciclo de vida de componentes em React_<br>
+:white_check_mark: 12-2: _React Router_<br>
+:white_check_mark: 12-3: _[Projeto - TrybeTunes]()_<br>
 
-##### Bloco 14: Metodologias Ágeis
+##### Bloco 13: Metodologias Ágeis
 
-:white_check_mark: 14-1: _Metodologias Ágeis_
-:white_check_mark: 14-2: _[Projeto - Frontend Online Store]()_
+:white_check_mark: 13-1: _Metodologias Ágeis_<br>
+:white_check_mark: 13-2: _[Projeto - Frontend Online Store]()_<br>
 
-##### Bloco 15: Testes em React
+##### Bloco 14: Testes automatizados com React Testing Library
 
-:white_check_mark: 15-1: _Testando React com a React Testing Library_
-:white_check_mark: 15-2: _Testando React com a React Testing Library - Parte 2_
-:white_check_mark: 15-3: _[Projeto - Testes em React]()_
+:white_check_mark: 14-1: _RTL - Primeiros passos_<br>
+:white_check_mark: 14-2: _RTL - Mocks e Inputs_<br>
+:white_check_mark: 14-3: _Testando em React Router_<br>
+:white_check_mark: 14-4: _[Projeto - Testes em React]()_<br>
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 15: Gerenciamento de estado com Redux
 
-:white_check_mark: 16-1: _Introdução ao Redux_
-:white_check_mark: 16-2: _React com Redux - Parte 1_
-:white_check_mark: 16-3: _React com Redux - Prática_
-:white_check_mark: 16-4: _React com Redux - Parte 2_
-:white_check_mark: 16-5: _Testes síncronos com React-Redux_
-:white_check_mark: 16-6: _[Projeto - Tabela com filtros de dados]()_
+:white_check_mark: 15-1: _Introdução ao Redux_<br>
+:white_check_mark: 15-2: _Usando Redux no React_<br>
+:white_check_mark: 15-3: _Usando Redux no React - Prática_<br>
+:white_check_mark: 15-4: _Usando Redux no React - Actions Assíncronas_<br>
+:white_check_mark: 15-5: _Testes em React-Redux_<br>
+:white_check_mark: 15-6: _[Projeto - Trybe Wallet]()_<br>
 
-##### Bloco 17: Projeto React
+##### Bloco 16: Projeto Jogo de Trivia
 
-:white_check_mark: 17-1: _[Projeto - Jogo de Trivia]()_
+:white_check_mark: 16-1: _[Projeto - Jogo de Trivia]()_<br>
 
-##### Bloco 18: React & Context API
+##### Bloco 17: Context API e React Hooks
 
-:white_check_mark: 18-1: _Context API do React_
-:white_check_mark: 18-2: _React Hooks - useState e useContext_
-:white_check_mark: 18-3: _React Hooks - useEffect e Hooks customizados_
-:white_check_mark: 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+:white_check_mark: 17-1: _Context API do React_<br>
+:white_check_mark: 17-2: _React Hooks - useState e useContext_<br>
+:white_check_mark: 17-3: _React Hooks - useEffect e Hooks customizados_<br>
+:white_check_mark: _[Projeto - StarWars Datatable com Context API e Hooks]()_<br>
 
-##### Bloco 19: Projeto Final de Front-end
+##### Bloco 18: Projeto App de Receitas
 
-:white_check_mark: 19-1: _[Projeto - App de Receitas]()_
+:white_check_mark:_[Projeto - App de Receitas](https://recipe-app-chi-ten.vercel.app/)_<br>
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução - Bancos de dados relacionais
+##### Bloco 19: Docker: Utilizando Containers
+:white_check_mark: 19-1:_Utilizando Containers - Docker_<br>
+:white_check_mark: 19-2: _Manipulando Imagens no Docker_<br>
+:white_check_mark: 19-3: _Orquestrando Containers com Docker Compose_<br>
+:white_check_mark: 19-4: _[Projeto _Docker Todo-List]()_ <br>
 
-:white_check_mark: 20-1: _Banco de dados SQL_
-:white_check_mark: 20-2: _Encontrando dados em um banco de dados_
-:white_check_mark: 20-3: _Filtrando dados de forma específica_
-:white_check_mark: 20-4: _Manipulando tabelas_
-:white_check_mark: 20-5: _[Projeto - All For One]()_
+##### Bloco 20: Introdução à SQL
 
-##### Bloco 21: Bancos de dados relacionais
+:white_check_mark: 20-1: _Banco de dados SQL_<br>
+:white_check_mark: 20-2: _Encontrando dados em um banco de dados_<br>
+:white_check_mark: 20-3: _Filtrando dados de forma específica_<br>
+:white_check_mark: 20-4: _Manipulando tabelas_<br>
+:white_check_mark: 20-5: _[Projeto - All For One]()_<br>
 
-:white_check_mark: 21-1: _Funções mais usadas no SQL_
-:white_check_mark: 21-2: _Descomplicando JOINs e UNIONs_
-:white_check_mark: 21-3: _Stored Routines & Subqueries_
-:white_check_mark: 21-4: _[Projeto - Vocabulary Booster]()_
+##### Bloco 21: Funções SQL, JOINs e Normalização
 
-##### Bloco 22: Bancos de dados relacionais
+:white_check_mark: 21-1: _Funções mais usadas no SQL_<br>
+:white_check_mark: 21-2: _Descomplicando JOINs_<br>
+:white_check_mark: 21-3: _Tranforme idéias em banco de dados_<br>
+:white_check_mark: 21-4: _[Projeto - One for All]()_
 
-:white_check_mark: 22-1: _Transformando ideias em um modelo de banco de dados_
-:white_check_mark: 22-2: _Normalização, Formas Normais e Dumps_
-:white_check_mark: 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-:white_check_mark: 22-3: _[Projeto - One For All]()_
+##### Bloco 22: Introdução ao desenvolvimento web com Node.js
 
-##### Bloco 23: Arquitetura de Softwares - MSC
+:white_check_mark: 22-1: _Introdução -Node.js_<br>
+:white_check_mark: 22-2: _Node.js - API REST com Express_<br>
+:white_check_mark: 22-3: _Mocha, Chai e Sinon_<br>
+:white_check_mark: 22-4: _Express: Middlewares_<br>
+:white_check_mark: 22-5: _Express e Mysql_<br>
+:white_check_mark: 22-6: _[Projeto - Talker Manager]()_<br>
 
-:white_check_mark: 23-1: _Arquitetura de Softwares - Camada Model_
-- [ ] 23-2: _Arquitetura de Softwares - Camada Service_
-- [ ] 23-3: _Arquitetura de Softwares - Camada Controller_
-- [ ] 23-3: _[Projeto - Store Manager]()_
+##### Bloco 23: NODE.js: Camada de serviços e Arquitetura Rest e Restful
 
-##### Bloco 24: Updates
+:white_check_mark: 23-1: _Arquitetura de Software - Camada Model_<br>
+:white_check_mark: 23-2: _Arquitetura de Software - Camada Service_<br>
+:white_check_mark: 23-3: _Arquitetura de Software - Camada Controller_<br>
+:white_check_mark: 23-4: _[Projeto - Store Manager]()_<br>
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+##### Bloco 24: Node.js: ORM e Autenticação
 
-##### Bloco 25: Aggregation Framework
+:white_check_mark: 24-1: _Interface da aplicação com o banco de dados_<br>
+:white_check_mark: 24-2: _ORM - Associations 1:1 e 1:N_<br>
+:white_check_mark: 24-3: _ORM - Associations N:N e Transactions_<br>
+:white_check_mark: 24-4: _JWT - (JSON Web Token)_<br>
+:white_check_mark: 24-5: _[Projeto - Api de Blogs]()_<br>
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+##### Bloco 25: Deployment 
 
-##### Bloco 26: Intro - NodeJS
+:white_check_mark: 25-1: _Infraestrutura - Deploy com Heroku_<br>
+:white_check_mark: 25-2: _Deploy Docker & Heroku_<br>
+:white_check_mark: 25-3: _[Projeto - Stranger Things]()_<br>
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+##### Bloco 26: TypeScript
 
-##### Bloco 27: NodeJS
+:white_check_mark: 26-1: _Introdução - TypeScript_<br>
+:white_check_mark: 26-2: _Tipagem Estática e Generics_<br>
+:white_check_mark: 26-3: _Express com TypeScript_<br>
+:white_check_mark: 26-4: _[Projeto - Trybe Smith]()_<br>
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+##### Bloco 27: Programação Orientada a Objetos(POO) e SOLID
 
-##### Bloco 28: NodeJS
+:white_check_mark: 27-1: _Introdução à Orientação a Objetos_<br>
+:white_check_mark: 27-2: _Herança e Interfaces_<br>
+:white_check_mark: 27-3: _Polimorfismo_<br>
+:white_check_mark: 27-4: _SOLID - Introdução e Princípios S, O e D_<br>
+:white_check_mark: 27-5: _SOLID - Princípios L e I_<br>
+:white_check_mark: 27-6: _[Projeto - Trybers and Dragons]()_<br>
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-##### Bloco 29: NodeJS
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+##### Bloco 29: Introdução ao MongoDB
 
-##### Bloco 30: Introdução - Deploy
+- [ ] 29-1: _Introdução - NoSQL_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+##### Bloco 30: MongoDB com Node.js e POO
 
-##### Bloco 31: Projeto
+- [ ] 30-1: _Mongoose e arquitetura MSC(camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC(camada Service e Controller)s_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+##### Bloco 31: Projeto - App de Delivery
 
-##### Bloco 32: Arquitetura de Software
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+##### Bloco 32: MasterClass - VPS, CI/CD
+
+- [ ] 32-1: _Dia 1 - VPS_
+- [ ] 32-2: _ORM - Dia 2 - VPS_
+
+## Ciência da Computação :hourglass_flowing_sand: ** parei aki
 
 ##### Bloco 33: Sockets
 
@@ -232,8 +244,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 34: Projeto
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
-
-## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
