@@ -1,5 +1,3 @@
-// ./models/book.model.ts
-
 import { Pool, ResultSetHeader } from 'mysql2/promise';
 import Book from '../interfaces/book.interface';
 
