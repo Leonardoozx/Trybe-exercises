@@ -2,7 +2,7 @@ name = ""
 
 index = 0
 
-name = input('Qual seu nome ?')
+name = input('Qual seu nome ? ')
 
 while index < len(name):
     print(name[index])
